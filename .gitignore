@@ -8,8 +8,7 @@ data/
 *.pyc
 *.log
 *.json
+*.npy
 __MACOSX/
 .idea/
 .vscode/
-*.npy
-
