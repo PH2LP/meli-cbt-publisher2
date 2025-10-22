@@ -1,0 +1,50 @@
+# ============================================================
+# ⚙️ CONFIGURACIÓN GLOBAL MERCADO LIBRE CBT
+# ============================================================
+
+# 🏷️ Tipo de publicación por defecto
+listing_type_id: "gold_special"
+
+# 💲 Moneda usada en CBT (Mercado Libre Global Selling)
+currency_id: "USD"
+
+# 🆕 Condición del producto
+condition: "new"
+
+# 📦 Cantidad disponible por defecto
+available_quantity: 50
+
+# 🌎 Marketplaces a publicar
+# (MLM = México, MLB = Brasil, MLC = Chile, MCO = Colombia)
+marketplaces:
+  - "MLM"
+  - "MLA"
+  - "MLC"
+  - "MLB"
+  - "MCO"
+
+# 🧮 Precio por defecto si el JSON de Amazon no trae uno
+default_price: 24.90
+
+# ✏️ Límite de caracteres para el título (requerido por Mercado Libre)
+title_max_len: 60
+
+# 📦 Categoría fija opcional
+# (si no querés que se prediga automáticamente)
+# category_id: "MLA3530"
+
+# ============================================================
+# ⚙️ OPCIONES AVANZADAS (IA / DEPURACIÓN)
+# ============================================================
+
+# 💡 Usa IA para generar título, bullets y descripción (true/false)
+use_ai_texts: true
+
+# 🧠 Usa IA para interpretar JSON de Amazon (true/false)
+use_ai_mapper: true
+
+# ⏱️ Delay entre subidas de imágenes (segundos)
+image_upload_delay: 0.4
+
+# 🧾 Nivel de log (info, debug)
+log_level: "info"
